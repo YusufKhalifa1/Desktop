@@ -196,7 +196,7 @@ default_floating_border pixel 1
 
 
 # KeyBindings
-bindsym $mod+b exec firefox 
+bindsym $mod+b exec brave-browser 
 bindsym $mod+Shift+f exec thunar
 bindsym $mod+t exec rofi -show drun
 
@@ -213,3 +213,8 @@ exec_always gnome-keyring-daemon --start &
 
 exec_always dunst &
 
+exec_always xrandr --output VGA-0  --set TearFree on &
+
+exec_always redshift -l 30.0588:31.2268
+
+exec_always sxhkd &

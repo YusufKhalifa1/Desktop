@@ -1,0 +1,2 @@
+super + shift + {a,u,d}
+	setxkbmap -layout {ara,us,de}
